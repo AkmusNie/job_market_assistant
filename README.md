@@ -4,14 +4,14 @@ Job Market Assistant is a project to help job-seekers by embracing the infomatio
 
 THe project consists of four parts:
 
-### Data Collection
+## Data Collection
 
 This part includes the scraper scripts for different sources of job information. 
 
-#### get_market_51job.py
+### get_market_51job.py
 This file provides a function to collect all the data with a specific search keywords from 51job.com, a large-scale recruitment website in China.
 
-##### get_market_51job(gurl,npages)
+#### get_market_51job(gurl,npages)
 Arguments:
 
     gurl: The generalized url of the searched keyword;
@@ -29,14 +29,14 @@ Todo:
     2.automatically get the number of pages from the first page.
 
 
-### Data Preprocessing
+## Data Preprocessing
 
 This part includes the scripts for preprocessing the data collected from different sources.
 
-### Data Modelling
+## Data Modelling
 
 This part includes the modelling and analysis files.
 
-### Data Visualization
+## Data Visualization
 
 This part includes the plotting and visualization interface files for the final presentation to users.
