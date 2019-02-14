@@ -8,10 +8,10 @@ THe project consists of four parts:
 
 This part includes the scraper scripts for different sources of job information. 
 
-##### get_market_51job.py
+#### get_market_51job.py
 This file provides a function to collect all the data with a specific search keywords from 51job.com, a large-scale recruitment website in China.
 
-###### get_market_51job(gurl,npages)
+##### get_market_51job(gurl,npages)
 Arguments:
 gurl: The generalized url of the searched keyword;
 npages: THe number of pages there are for the searched keyword.
